@@ -1,0 +1,149 @@
+﻿<html>
+
+<head>
+
+<style type="text/css">
+a.intro{color:#666;text-decoration:none;font-size:12px;}
+a.intro:hover{color:red}
+a.intro:body{font-famiy:"宋体";font-size:12px;}
+a.intro:link {
+text-decoration: none;
+}
+a.intro:visited {
+text-decoration: none;
+}
+a.intro:hover {
+text-decoration: none;
+}
+a.intro:active {
+text-decoration: none;
+}
+</style>
+
+<style type="text/css">
+h1.intro
+{
+color:white;
+text-align:center;
+}
+.important {background-color:black;}
+</style>
+
+<style type="text/css">
+p {color: white}
+</style>
+
+<script>
+function myFunction()
+{
+document.getElementById("demo").innerHTML="My First JavaScript Function";
+}
+</script>
+
+</head>
+
+<body background="i/2.jpg">
+
+<script>document.write("Hello \
+World!");
+</script>
+
+<p id="demo">A Paragraph</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+
+
+
+<p><a class="intro" href="#label3">Jump Table.</a></p>
+
+<p>来自文件夹的图像<a name="label2"><img src="1.jpg" width="70" height="50" align="middle"></a></p></br>
+
+ <!--accesskey:加快捷键 和target=“_blank”冲突-->
+<a href="http://www.baidu.com" target="_blank" name="label1" accesskey="h">Visit Baidu</a>
+
+<p contenteditable="true" dir="ltr">
+element dir="ltr|rtl":文本方向;contenteditable="true":可编辑</p>
+
+<p draggable="true">draggable="true":可拖动</p>
+
+
+
+
+
+
+<a name=label3><p>每个表格由 table 标签开始。</p></a>
+<p>每个表格行由 tr 标签开始。</p>
+<p>每个表格数据由 td 标签开始。</p>
+<p>表头:th</p>
+<p>单元格之间空白:cellspacing(单元格间距)</p>
+<p>单元边缘与其内容之间的空白:cellpadding(单元格边距)</p>
+<p>frame:{void,above,below,hsides,lhs,rhs,vsides,box,border}</p>
+<p>一个无序列表</p>
+<ul>
+  <li>coffee</li>
+  <li>tea</li>
+  <li>milk</li>
+</ul>
+
+<!--set border to 0:no border-->
+<table border="1" cellpadding="10" cellspacing="10" frame="box" width="400">
+<caption>caption</caption>
+<tr>
+  <th>number</th>
+  <th>number</th>
+  <th colspan="2">number</th>
+  <th>number</th>
+  <th>number</th>
+</tr>
+<tr>
+  <th rowspan="2">number</th>
+  <td>100</td>
+  <td>100</td>
+  <td>100</td>
+  <td>100</td>
+  <td>100</td>
+</tr>
+<tr>
+  <td>100</td>
+  <td>200</td>
+  <td>300</td>
+  <td>400</td>
+  <td>500</td>
+</tr>
+</table>
+
+<table border="1">
+<tr>
+  <td>
+   <p>这是一个段落。</p>
+   <p>这是另一个段落。</p>
+  </td>
+  <td>这个单元包含一个表格：
+   <table border="1">
+   <tr>
+     <td>Aaaaaaaaaa</td>
+     <td>Bbbbbbbbbb</td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td>Dddddddddd</td>
+   </tr>
+   </table>
+  </td>
+</tr>
+<tr>
+  <td>这个单元包含一个列表：
+   <ul>
+    <li>苹果</li>
+    <li>香蕉</li>
+    <li>菠萝</li>
+   </ul>
+  </td>
+  <td>HELLO</td>
+</tr>
+</table>
+
+</body>
+
+</html>
